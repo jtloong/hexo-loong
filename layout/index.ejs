@@ -2,20 +2,33 @@
   <% if (config.description) { %>
     <%- markdown(config.description) %>
   <% } %>
+  <h1><a href="<%- url_for("about") %>">About</a></h1>
+  <p style="display: inline">
+    Hi I'm Josh. I love everything about tech and data science, and especially where it's used for the greater public good.</br></br>
+    I've had a lot of experience in the Ontario Public Service doing cool data stuff and building web apps. I also like to build things in my spare time and volunteer on civic tech projects like <a href='http://democracykit.org'>Democracy Kit</a> and <a href='http://chalmerscards.com'>Chalmers Cards</a>. I just finished a short stint in political data science work and am now back at school finishing my degree. You can view my resume <a href='about/docs/resume.pdf' onclick=”_gaq.push([‘_trackEvent’,’Download’,’PDF’,this.href]);”>here</a>.
+  </br></br>
+  </p>
+  <p style="display: inline">
+       You can contact me at <a href='mailto:joshua.t.loong@gmail.com'>joshua.t.loong@gmail.com</a> or <a href='mailto:josh@democracykit.org'>josh@democracykit.org</a>.<br><br>
+  </p>
   <p style="display: inline">
     <% if (theme.customize.social_links) { %>
-      Find me on
+      Or find me on
       <ul id="sociallinks">
         <% for(var i in theme.customize.social_links) { %>
           <li><a class="icon" target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>" title="<%= i %>"><i class="fa fa-<%= i %>"></i></a></li>
         <% } %>
-      </ul>.
+      </ul>
     <% } %>
   </p>
+
+
 </section>
 
 <section id="writing">
   <span class="h1"><a href="<%- url_for("archives") %>">Writing</a></span>
+  <!-- I love to write about topics such as -->
+  <p>I like to write about <a href='/tags/data-science/'><b>#data-science</b></a>, <a href='/tags/software-development/'><b>#software-development</b></a>, <a href='/tags/public-policy/'><b>#public-policy</b></a>, <a href='/tags/civic-action/'><b>#civic-action</b></a>, and <a href="<%- url_for("archives") %>"><b>other topics</b></a>. You can also follow my writing via <a href="/atom.xml"> RSS <i class="fa fa-rss"></i></a>.</p>
   <ul class="post-list">
     <% if (theme.customize.show_all_posts) { %>
       <% var show_posts = page.posts.sort('date', 'desc') %>

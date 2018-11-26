@@ -1,10 +1,11 @@
 nav:
   Home: /
   About: /about/
+  Now: /now/
+  Reading: /reading/
   Writing: /archives/
-  Projects: http://github.com/gabithume
 
-projects_url: http://github.com/gabithume
+projects_url: /projects/
 
 customize:
     gravatar:
@@ -27,16 +28,15 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: http://github.com/gabithume/cactus-light
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: http://github.com/jtloong
+        twitter: https://twitter.com/jtloong
+        linkedin: https://www.linkedin.com/in/joshualoong/
     show_all_posts: false
     post_count: 5
     highlight: monokai
 
 # RSS
-rss: false
+rss: /atom.xml
 
 # Plugins
 plugins:
