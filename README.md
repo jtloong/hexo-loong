@@ -1,10 +1,6 @@
-# Cactus Light
+# Hexo-loong
 
-A responsive, light and simple [Hexo](http://hexo.io) theme for a personal website. Based on the original [Cactus Dark](https://github.com/probberechts/cactus-dark) theme by [Pieter Robberechts](https://github.com/probberechts).
-
-:cactus: [Demo](http://gabithu.me)
-
-![cactus-light](https://cloud.githubusercontent.com/assets/2175271/19885143/62e9269c-a01d-11e6-8e26-e36a36201d88.png)
+A responsive, light and simple [Hexo](http://hexo.io) theme for my website. Based on the original [Cactus Dark](https://github.com/probberechts/cactus-dark) theme by [Pieter Robberechts](https://github.com/probberechts).
 
 ## Summary
 
@@ -34,7 +30,7 @@ A responsive, light and simple [Hexo](http://hexo.io) theme for a personal websi
 1. In the `root` directory:
 
     ```git
-    $ git clone https://github.com/gabithume/cactus-light.git themes/cactus-light
+    $ git clone https://github.com/jtloong/hexo-loong
     $ npm install hexo-pagination --save
     ```
 
@@ -42,7 +38,7 @@ A responsive, light and simple [Hexo](http://hexo.io) theme for a personal websi
 
     ```yml
     # theme: landscape
-    theme: cactus-light
+    theme: hexo-loong
     ```
 
 3. Run: `hexo generate` and `hexo server`
@@ -58,7 +54,7 @@ Setup the navigation menu in the theme's `_config.yml`:
     Home: /
     About: /about/
     Writing: /archives/
-    Projects: http://github.com/gabithume
+    Projects: http://github.com/jtloong
     LINK_NAME: URL
   ```
 
