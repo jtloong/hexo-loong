@@ -30,7 +30,7 @@ A responsive, light and simple [Hexo](http://hexo.io) theme for my website. Base
 1. In the `root` directory:
 
     ```git
-    $ git clone https://github.com/jtloong/hexo-loong
+    $ git clone https://github.com/jtloong/hexo-loong themes/hexo-loong
     $ npm install hexo-pagination --save
     ```
 
