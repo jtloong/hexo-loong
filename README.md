@@ -96,6 +96,11 @@ Create a projects file `source/_data/projects.json`.
   ]
   ```
 
+### Math
+
+Use the [following tutorial](https://nathaniel.blog/tutorials/make-hexo-support-math-again/index.html) to fix Mathjax rendering.
+
+
 ### Social media links
 
 Cactus Light can automatically add links to your social media accounts. Therefore, update the theme's `_config.yml`:
